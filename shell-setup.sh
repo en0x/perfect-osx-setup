@@ -19,7 +19,6 @@ kubectl\
 rvm\
 ssh-agent\
 terraform\
-thefuck\
 vscode\
 git-flow\
 colorize\
@@ -65,3 +64,7 @@ git clone https://github.com/powerline/fonts.git ~/Downloads/fonts && cd ~/Downl
 
 
 echo 'DISABLE_UPDATE_PROMPT=true' >> ~/.zshrc
+echo 'unsetopt inc_append_history
+unsetopt share_history'  >> ~/.zshrc
+
+curl -o ~/Downloads/Nord.itermcolors https://raw.githubusercontent.com/arcticicestudio/nord-iterm2/develop/src/xml/Nord.itermcolors
